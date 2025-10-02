@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">  
+    <title>NFT Preview</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./main.js"></script>
+</head>
+<body class="bg-blue-950 font-outfit">
+    <main class="w-full flex justify-center md:items-center md:h-screen">
+        <div class="p-6 bg-blue-900 rounded-15px mt-8.75 flex flex-col gap-6 max-w-87.5 md:mt-0">
+            <!-- card image Equilibrium -->
+            <div class="group">
+                <div class="bg-cyan-400 opacity-0 group-hover:opacity-50 absolute w-75.5 h-75.5 rounded-lg"></div>
+                <div class="w-75.5 h-75.5 opacity-0 group-hover:opacity-100 absolute">
+                    <img src="./images/icon-view.svg" alt="View" class="absolute  z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                </div>
+                <img src="./images/image-equilibrium.jpg" alt="Equilibrium" class="w-75.5 h-75.5 rounded-lg">
+            </div>
+
+            <!-- card description -->
+            <div>
+                <h1 class="text-preset-1 text-white hover:text-cyan-400 cursor-default mb-4">Equilibrium #3429</h1>
+                <span class="text-blue-500 text-preset-2 leading-[1.5]">Our Equilibrium collection promotes balance and calm.</span>
+            </div>
+
+            <!-- card info -->
+            <div class="flex justify-between">
+                <div class="flex items-center gap-2">
+                    <img src="./images/icon-ethereum.svg" alt="Ethereum" class="w-3">
+                    <span class="text-preset-2 text-cyan-400 font-semibold leading-none">0.041 ETH</span>
+                </div>
+
+                <div class="flex items-center gap-1">
+                    <img src="./images/icon-clock.svg" alt="Clock" class="w-5">
+                    <span class="text-preset-2 text-blue-500 leading-none">3 days left</span>
+                </div>
+            </div>
+
+            <!-- card divider -->
+            <div class="border-b border-blue-800"></div>
+
+            <div class="flex items-center gap-2">
+                <img src="./images/image-avatar.png" alt="Avatar" class="w-8 h-8 rounded-full border-2 border-white">
+                <span class="text-preset-3 text-blue-500 mr-1">Creation of <span class="text-white hover:text-cyan-400 cursor-default">Jules Wyvern</span></span>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
